@@ -1,0 +1,122 @@
+/* assets/css/admin.css */
+.whf-container {
+    max-width: 1200px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.whf-header {
+    background: #fff;
+    padding: 20px 25px;
+    border-bottom: 1px solid #e2e8f0;
+    border-radius: 8px 8px 0 0;
+}
+
+.whf-header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.whf-section {
+    padding: 25px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.whf-section:last-child {
+    border-bottom: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.whf-section h2 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.whf-section h2 .dashicons {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.whf-description {
+    background: #f8fafc;
+    border-left: 4px solid #3498db;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.whf-description p {
+    margin: 0;
+    color: #5c6b7a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.whf-description code {
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #2c3e50;
+}
+
+.whf-textarea-wrapper {
+    margin: 20px 0;
+    position: relative;
+}
+
+.whf-textarea-wrapper textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+.whf-textarea-wrapper textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 1px #3498db;
+    outline: none;
+}
+
+.whf-submit {
+    padding: 20px 25px;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    border-radius: 0 0 8px 8px;
+    text-align: right;
+}
+
+.whf-submit .button-primary {
+    background: #3498db;
+    border-color: #2980b9;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: none;
+    box-shadow: none;
+    height: auto;
+    line-height: normal;
+}
+
+.whf-submit .button-primary:hover {
+    background: #2980b9;
+}
+
+/* Template structure for admin-page.php */
